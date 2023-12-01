@@ -1,0 +1,52 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #032c54; /* Dodger Blue */
+    margin-top: 50px;
+}
+
+form {
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e1a1a1;
+    box-shadow: 0 0 10px rgba(21, 20, 20, 0.1);
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #459c48; /* Green */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker Green */
+}
